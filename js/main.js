@@ -2,7 +2,7 @@
 
    $(function () { // wait for document ready
     var processor = TweenMax.to("#processor", 1, {top: "33.43%", ease: Linear.easeNone});
-    var cooler = TweenMax.to("#cooler", 1, {top: "22.38%", ease: Linear.easeNone});
+    var cooler = TweenMax.to("#cooler", 1, {top: "22.66%", ease: Linear.easeNone});
      var slogan = TweenMax.to("#slogan", 1, {opacity: "1", ease: Linear.easeNone});
         // build scene
         new ScrollMagic.Scene({duration: 600})

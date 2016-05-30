@@ -1,7 +1,8 @@
 html,
 body {
   width: 100%;
-  height: auto;
+  height: 100%;
+  min-height: 700px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -55,6 +56,8 @@ img {
 .home {
   position: relative;
   width: 100%;
+  height: 100%;
+  min-height: 800px;
   padding: 0;
 }
 
@@ -142,6 +145,10 @@ img {
   vertical-align: top;
 }
 
+.logo img {
+  width: 242px;
+}
+
 .main-heading {
   width: 50%;
   display: inline-block;
@@ -198,7 +205,7 @@ img {
 
 .processor {
   position: absolute;
-  top: -50vh;
+  top: -170%;
   left: 50%;
   width: 21.6%;
   -webkit-transform: translate(-50%, 0);
@@ -210,7 +217,7 @@ img {
 
 .cooler {
   position: absolute;
-  top: -55vh;
+  top: -170%;
   left: 50%;
   width: 23.5%;
     -webkit-transform: translate(-50%, 0);
@@ -560,10 +567,10 @@ textarea {
   .clients {padding-bottom: 40px;}
   .services {padding-bottom: 0;}
   .home-background { padding-bottom: 0;}
-  .pixel-processor {top: 40vh; width: 95%;}
-  .home {height: 100vh; min-height: 700px;}
-  .home-content { padding: 0; width: 100%;}
-  .rectangle {height: 40vh;}
+  .pixel-processor {top: 35%; width: 95%;}
+  .home {height: 100%; min-height: 700px;}
+  .home-content { padding: 0; width: 100%; height: 100%;}
+  .rectangle {height: 300px;}
   .logo {display: block; margin: 30px auto 50px auto; width: 243px;}
   .main-heading {width: 100%; margin: 0 auto; padding: 0; text-align: center; font-size: 30px;}
   .slogan { margin: 60px auto 0; position: static; width: 90%; font-size: 30px; color: #fff;}
@@ -596,6 +603,7 @@ textarea {
 }
 
 @media (min-width: 1400px) {
+  .body {min-height: 800px;}
   .home-background { padding-bottom: 0;}
   .services {margin-top: -100px;}
 }
